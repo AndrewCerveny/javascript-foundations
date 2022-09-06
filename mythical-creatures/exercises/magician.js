@@ -7,12 +7,8 @@ class Magician {
   }
 
   performIncantation(magicWords) {
-    if(magicWords ==='allakazaam') {
-      return 'ALLAKAZAAM!';
-    } else {
-      return 'ABRACADABRA!';
+  return  magicWords.toUpperCase()
     }
-  }
   performTrick() {
     this.confidencePercentage += 10;
     if(this.favoriteAccessory === 'top hat') {
