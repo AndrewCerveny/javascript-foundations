@@ -7,10 +7,20 @@ class Medusa {
   this.statues =[]
   }
 
-  gazeAtVictim(victims) {
-  // need to ask for help here?? 
+  gazeAtVictim(victim) {
+  var newStatue = new Statue(victim.name);
+  if(this.statues.length < 3) {
+    this.statues.push(newStatue);
+  } else {
+    var stoneName = this.statues[0].name
+    var freedPerson = new Person(stoneName,'relieved')
+    this.statues.shift()
+    this.statues.push(newStatue);
+    return freedPerson;
+    }
   }
 };
+
 
 
 

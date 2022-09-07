@@ -1,6 +1,6 @@
 class Statue {
-  constructor(formerSelf) {
-    this.name = formerSelf
+  constructor(formerName) {
+    this.name = formerName
   }
 };
 
