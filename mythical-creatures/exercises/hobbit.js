@@ -1,10 +1,10 @@
 class Hobbit {
-  constructor({name: hobbitName}){
-      this.name = hobbitName;
-      this.age = 0
-      this.adult = false
-      this.old = false
-      this.hasRing = false
+  constructor(hobbitPerson){
+      this.name = hobbitPerson.name;
+      this.age = 0;
+      this.adult = false;
+      this.old = false;
+      this.hasRing = false;
   }
   celebrateBirthday(){
     this.age += 1
