@@ -10,24 +10,26 @@ class Human {
       buttons:0,
       carrots:0,
     };
+    this.newSnowman = null;
   }
   gatherMaterials(bodyPart,amount) {
     this.materials[bodyPart] += amount
   }
   buildASnowman() {
     var frosty = new Snowman(this.materials);
+    frosty.canWearMagicHat()
+    this.newSnowman = frosty.magicHat
     return frosty
   }
+
   placeMagicHat() {
-    function buildASnowman() {
-      console.log(frosty)
+    if (this.newSnowman === false) {
+      return 'I guess I didn\'t build it correctly.'
+    } else {
+      return 'Woah, this snowman is coming to life!'
     }
   }
 };
 
-// ; && Snowman.magicHat = true){
-//       'Woah, this snowman is coming to life!'
-//   } else {
-//     return 'I guess I didn\'t build it correctly.'
-// return'Woah, this snowman is coming to life!'
+//
 module.exports = Human;
