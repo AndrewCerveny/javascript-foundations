@@ -22,7 +22,7 @@ You can run the tests from the root of this repository. When you type `pwd` in t
 - [x] `pirate`
 - [x] `magician`
 - [x] `medusa`
-- [ ] `werewolf`
+- [x] `werewolf`
 - [ ] `centaur`
 - [ ] `direwolf`
 - [ ] `fairy`

@@ -33,8 +33,8 @@ describe('Golf Course', function () {
     var golfer4 = new Golfer({ name: 'Joanna', handicap: 7 });
     var golfer5 = new Golfer({ name: 'Bridget', handicap: 25 });
 
-    var group1 = [golfer1, golfer2, golfer3];
-    var group2 = [golfer4, golfer5];
+    var group1 = [golfer1, golfer2, golfer3]; // pat/ ted. kevin person obj
+    var group2 = [golfer4, golfer5]; // Joanna & Bridget person ob
 
     assert.equal(golfCourse.openings, 8);
     assert.deepEqual(golfCourse.currentlyPlaying, []);
