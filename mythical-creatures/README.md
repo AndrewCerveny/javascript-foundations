@@ -8,7 +8,6 @@ In order to be able to run these tests you need to install the dependencies at t
 
 You can run the tests from the root of this repository. When you type `pwd` in the console, the last path location should be `javascript-foundations`.
 
-Run the command `npm test mythical-creatures/test/unicorn-test.js`. To run other tests, just replace the creature name.
 
 ### Video Tutorial!
 
