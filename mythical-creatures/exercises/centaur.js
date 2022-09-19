@@ -1,6 +1,6 @@
 class Centaur {
-  constructor(name){
-    this.name = name;
+  constructor(centaurData){
+    this.name = centaurData.name;
   }
 }
 
